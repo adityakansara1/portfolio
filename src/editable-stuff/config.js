@@ -76,6 +76,12 @@ const projectLinks = {
   heading: "Projects",
   data: [
     {
+      repo: "Portfolio",
+      name: "portfolio",
+      url: "https://adityakansara1.github.io/portfolio/",
+      desc: "A portfolio website for my projects.",
+    },
+    {
       repo: "Tracalorie Project",
       name: "tracalorie-project",
       url: "https://adityakansara1.github.io/tracalorie-project/",

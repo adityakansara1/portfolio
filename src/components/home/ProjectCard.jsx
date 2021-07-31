@@ -68,7 +68,7 @@ const VisitButton = ({ url }) => {
   return (
     <a
       href={url}
-      className={"btn btn-outline-secondary ml-3"}
+      className={"btn btn-outline-secondary" + (window.innerWidth < 421 ? " mt-2" : " ml-3")}
     >
       <i className="fab fa-github" /> Live Hosting
     </a>
